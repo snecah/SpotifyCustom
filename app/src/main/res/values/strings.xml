@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Spotify Custom</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="get_started">Get Started</string>
+    <string name="music_for_everyone">Music for everyone.</string>
+    <string name="music_quote">Music gives a soul to the universe, \n
+        wings to the mind, \n
+        flight to the imagination, \n
+        and life to everything.</string>
+    <string name="artists">Artists</string>
+    <string name="album">Album</string>
+    <string name="podcast">Podcast</string>
+    <string name="genre">Genre</string>
+    <string name="monthly_listeners">monthly listeners</string>
+    <string name="home">Home</string>
+    <string name="search_music">Search music</string>
+    <string name="playlist">Playlist</string>
+    <string name="type_music_keyword">type music keyword</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="author_name">Author Name</string>
+</resources>
