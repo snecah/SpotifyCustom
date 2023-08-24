@@ -9,9 +9,8 @@ import javax.inject.Inject
 @HiltViewModel
 class MusicDetailedVIewModel @Inject constructor() : ViewModel() {
 
-    var currentSong = emptySave()
+    var currentTrack = emptySave()
     var allSongsData: Array<SavedSong>? = null
-    val mediaPlayer = MediaPlayer()
 
     fun findSong(
         allSongsData: Array<SavedSong>?,
@@ -21,7 +20,7 @@ class MusicDetailedVIewModel @Inject constructor() : ViewModel() {
         return if (allSongsData.isNullOrEmpty()) emptySave()
         else {
             for (i in allSongsData.indices) {
-                if (allSongsData[i].songPreview == songPreview)
+                if (allSongsData[i].trackPreview == songPreview)
                     j = i
             }
             return allSongsData[j]

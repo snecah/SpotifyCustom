@@ -5,8 +5,8 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class SavedSong(
-    val songTitle: String,
+    val trackTitle: String,
     val songImage: String,
-    val authorName: String,
-    val songPreview: String
+    val artistName: String,
+    val trackPreview: String
 ):Parcelable
